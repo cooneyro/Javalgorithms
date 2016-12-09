@@ -1,2 +1,2 @@
 # java-learning
-Programs in Java
+Collection of Java programs
