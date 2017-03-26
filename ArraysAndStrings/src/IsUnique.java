@@ -26,7 +26,7 @@ public class IsUnique {
      * Assumes all characters are lower case
      */
 
-    private static boolean checkUnique(String str) {
+    public static boolean checkUnique(String str) {
         int checker = 0;
         for (int i = 0; i < str.length(); i++) {
             int val = str.charAt(i) - 'a';
@@ -44,7 +44,7 @@ public class IsUnique {
      * @return true if all characters are unique, otherwise false
      *
      */
-    private static boolean checkUniqueNoData(String in) {
+    public static boolean checkUniqueNoData(String in) {
 
         for (int i = 0; i < in.length() - 1; i++) {
             for (int j = i + 1; j < in.length(); j++) {
