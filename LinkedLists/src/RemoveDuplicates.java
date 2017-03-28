@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class RemoveDuplicates {
+public class RemoveDuplicates extends Node{
     /**
      *
      * @param head Head of linked list
@@ -15,11 +15,11 @@ public class RemoveDuplicates {
         Node current = head;
 
         while(current != null){
-            if(set.contains(current.data)){
+            if(set.contains(current.getData())){
                 prev.next = current.next;
             }
             else{
-                set.add(current.data);
+                set.add(current.getData());
                 prev = current;
             }
             current = current.next;
@@ -31,7 +31,7 @@ public class RemoveDuplicates {
         Node lookAhead = current;
         while (current.next != null) {
             while (lookAhead.next != null) {
-                if (current.data == lookAhead.next.data) {
+                if (current.getData() == lookAhead.next.getData()) {
                     if(lookAhead.next.next!=null){
                         lookAhead.next = lookAhead.next.next;
                     }
@@ -45,22 +45,5 @@ public class RemoveDuplicates {
         }
     }
 
-    public class Node{
-        private Node next;
-        private int data;
-
-        public Node(int thisData){
-            this.next = null;
-            this.data = thisData;
-        }
-
-        public void addToList(int data){
-            Node lastNode = this;
-            while(lastNode.next!=null){
-                lastNode = lastNode.next;
-            }
-            lastNode.next = new Node (data);
-        }
-    }
 
 }
