@@ -25,7 +25,7 @@ public class Partition extends Node{
                     rightList = new Node(runner.getData());
                 }
                 else{
-                    rightList = addToHead(rightList, runner.getData());
+                    rightList.addToHead(rightList, runner.getData());
                 }
             }
         }
