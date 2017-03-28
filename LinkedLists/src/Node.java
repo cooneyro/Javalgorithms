@@ -14,12 +14,24 @@ public class Node{
         this.data = thisData;
     }
 
-    public void addToList(int data){
+    public void addToEnd(int data){
         Node lastNode = this;
         while(lastNode.next!=null){
             lastNode = lastNode.next;
         }
         lastNode.next = new Node (data);
+    }
+
+    /**
+     *
+     * @param head Previous head of list
+     * @param data Data to be added as new head
+     * @return new head of list
+     */
+    public Node addToHead(Node head,int data){
+        Node firstNode = new Node(data);
+        firstNode.next = head;
+        return firstNode;
     }
 
     public void setData(int data){
@@ -28,6 +40,18 @@ public class Node{
 
     public int getData(){
         return this.data;
+    }
+
+    /**
+     *
+     * @param newList Node to be set as end node of current list
+     */
+    public void setLast(Node newList){
+        Node runner = this;
+        while(runner.next!=null){
+            runner=runner.next;
+        }
+        runner.next=newList;
     }
 
     /**
