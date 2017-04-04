@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class ChangeToURL {
-    private static void replaceSpaces(char[] in, int trueLength){
+    public static void replaceSpaces(char[] in, int trueLength){
 
         int spaces = 0;
         int i;
