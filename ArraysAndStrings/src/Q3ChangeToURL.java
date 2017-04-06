@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ChangeToURL {
+public class Q3ChangeToURL {
     public static void replaceSpaces(char[] in, int trueLength){
 
         int spaces = 0;

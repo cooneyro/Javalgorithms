@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CheckPermutation {
+public class Q2CheckPermutation {
     public static void main(String args[]) throws Exception {
         System.out.println("Enter two strings to check if permutations of each other (lower case)");
         Scanner scan = new Scanner(System.in);

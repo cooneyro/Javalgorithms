@@ -5,7 +5,7 @@ import java.util.*;
  * checkUniqueNoData checks if all characters are unique without using additional data structures (char array)
  */
 
-public class IsUnique {
+public class Q1IsUnique {
     public static void main(String args[]) throws Exception {
         System.out.println("Enter a string to check if all characters are unique");
         Scanner scan = new Scanner(System.in);

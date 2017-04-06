@@ -1,4 +1,4 @@
-public class PalPerm {
+public class Q4PalindromePermutation {
     /**
      * @param input string to be checked
      * @return true if input string is permutation of palindrome, otherwise false
