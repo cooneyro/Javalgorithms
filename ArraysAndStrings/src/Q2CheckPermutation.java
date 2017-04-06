@@ -21,7 +21,7 @@ public class Q2CheckPermutation {
      * @return true if string1 and string2 are permutations of each other, false otherwise
      */
 
-    public static boolean checkPerm(String string1, String string2){
+    private static boolean checkPerm(String string1, String string2){
         if(string1.length()!=string2.length()){
             return false;
         }
