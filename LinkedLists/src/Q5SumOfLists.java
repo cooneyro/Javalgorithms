@@ -1,6 +1,6 @@
 //Calculate sum of two lists where each node represents a digit
 
-public class SumOfLists extends Node {
+public class Q5SumOfLists extends Node {
 
     /**
      * @param firstList  Head of first list to be added (least significant digit first)

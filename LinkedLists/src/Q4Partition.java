@@ -1,6 +1,6 @@
 //Partitioning linked list around value x
 
-public class Partition extends Node{
+public class Q4Partition extends Node{
     /**
      *
      * @param head Head of list to be partitioned

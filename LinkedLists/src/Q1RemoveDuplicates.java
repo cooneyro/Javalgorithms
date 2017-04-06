@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class RemoveDuplicates extends Node{
+public class Q1RemoveDuplicates extends Node{
     /**
      *
      * @param head Head of linked list

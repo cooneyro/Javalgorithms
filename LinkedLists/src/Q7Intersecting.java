@@ -1,6 +1,6 @@
 // Given two linked lists, determine if they are intersecting. If they are, return the node where they intersect
 
-public class Intersecting extends Node {
+public class Q7Intersecting extends Node {
     public Node getIntersectingNode(Node listOne, Node listTwo){
         Node runnerOne = listOne, runnerTwo = listTwo;
         int lengthOne = 0, lengthTwo = 0;

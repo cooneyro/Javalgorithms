@@ -1,4 +1,4 @@
-public class DeleteMiddleNode extends Node {
+public class Q3DeleteMiddleNode extends Node {
     /** 1->2->3 - 1->3
      *
      * @param node Node to be deleted, in middle of list (not first or last node)

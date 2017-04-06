@@ -1,5 +1,5 @@
 
-public class KthFromLast extends Node {
+public class Q2KthFromLast extends Node {
 
 
     /**
