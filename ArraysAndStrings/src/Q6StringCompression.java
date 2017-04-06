@@ -1,7 +1,14 @@
 // String compression using counts of letters
 // Eg. aabbcc becomes a2b2c2
 // **Assumes string has only uppercase and lowercase letters
+
+
 public class Q6StringCompression {
+    /**
+     *
+     * @param input String to be compressed
+     * @return Compressed version of string or original string, whichever is shorter
+     */
     private static String compressString(String input){
         StringBuilder myBuilder = new StringBuilder();
         for(int i=0;i<input.length();i++){
