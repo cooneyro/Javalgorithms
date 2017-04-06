@@ -1,0 +1,41 @@
+100 floor building
+If egg drops from Nth floor or above, it breaks. 
+Dropped from any floor below, doesn't break.
+Given 2 eggs.
+Find N, minimizing number of drops worst case.
+
+floor 50
+then go floor by floor
+worst case = 50 total drops
+
+floor 20
+floor 40 
+floor 60
+floor 80
+floor 100
+worst case = 4 + 19 drops = 23
+
+floor 10
+floor 20
+floor 30
+floor 40
+floor 50
+...
+floor 90
+floor 100 worst case = 18
+
+floor 10
+floor 19
+floor 28
+floor 37
+floor 46
+floor 55
+floor 64
+floor 73
+floor 82
+floor 91
+floor 100 worst case = 18
+
+To load balance, each step should take same number of drops - x + (x-1) + (x-2) ... = 100
+							      x(x+1)/2 = 100 , x = 14~
+

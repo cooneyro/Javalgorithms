@@ -1,0 +1,31 @@
+Choice 1: 1 shot 
+Choice 2: 3 shots, need to make 2 of 3 
+
+Probability p of making any given shot
+
+When to pick 1 or 2?
+
+Choice 1: Probability of winning = p
+
+Choice 2: Probability of winning = (1-p)(p)(p)(3) + (p)(p)(p) = (3)(p^2-p^3) + p^3 = 3p^2 - 2p^3
+
+Find meeting values
+
+3p^2 - 2p^3 = p
+
+2p^3 - 3p^2 + p = 0
+
+p(2p^2-3p+1) = 0
+
+p = 0 x
+
+2p^2 - 3p + 1 = 0
+(2p-1)(p-1) = 0
+
+p = 1/2 or p = 1
+
+1/4 vs 3/16 - 2/64 - Choice 1 better if 0< p < 0.5
+		   - Otherwise Choice 2
+		   - At p =0.5, same probability.
+
+
