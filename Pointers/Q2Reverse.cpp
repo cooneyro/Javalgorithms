@@ -6,7 +6,6 @@
 
 void Q2Reverse::reverse(char* str){
     char* end = str;
-    char* start = str;
     char tmp;
     if(str){
         while(end){
