@@ -1,2 +1,2 @@
 # Java Algorithms
-Collection of Java programs
+Collection of algorithms implemented (mostly) in Java, sorted by topic
